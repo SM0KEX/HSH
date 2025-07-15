@@ -19,7 +19,7 @@ local function standingShot()
     }
     ActionsRemote:FireServer(unpack(argsStart))
 
-    wait(0.4) -- Adjust timing for meter
+    wait(0.6) -- Adjust timing for meter
 
     -- StopMeter
     local argsStop = {
@@ -30,7 +30,7 @@ local function standingShot()
     }
     ActionsRemote:FireServer(unpack(argsStop))
 
-    wait(0.2) -- Adjust timing before shooting
+    wait(0.3) -- Adjust timing before shooting
 
     -- ShootBall
     local argsShoot = {
